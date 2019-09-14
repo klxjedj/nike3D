@@ -1,0 +1,1735 @@
+{
+  "name": "AM 270",
+  "_id": "am270",
+  "id": "AM270AMFA19_NIKE",
+  "scale": 0.5,
+  "position-offset": [
+    -5,
+    -3,
+    0
+  ],
+
+  "aoMap" : "ao",
+  "contentRoot": "am270/",
+  
+  "textures": {
+
+    "ao" : {
+      "url" : "textures/am270_ao.png"
+    },
+    
+    "midsoleBump_49084_normal" : {
+      "url" : "/materials/midsolebump_49084/midsolebump_49084_normal.png"
+    },
+    "midsoleBump_49084_dsg" : {
+      "url" : "/materials/midsolebump_49084/midsolebump_49084_dsg.png"
+    },
+
+    "leather_74403_normal" : {
+      "url" : "/materials/leather_74403/leather_74403_normal.png",
+      "anisotropy" : 4
+    },
+    "leather_74403_dsg" : {
+      "url" : "/materials/leather_74403/leather_74403_dsg.png",
+      "anisotropy" : 4
+    },
+
+    "1147_normal" : {
+      "url" : "/materials/1147_stitching/1147_normal.png"
+    },
+    "1147_dsg" : {
+      "url" : "/materials/1147_stitching/1147_stitching_dsg.png"
+    },
+
+    "mudguard_111598_dsg" : {
+      "url" : "materials/mudguardoverlay_111598/mudguardoverlay_111598_dsg.png"
+    },
+    "mudguard_111598_normal" : {
+      "url" : "materials/mudguardoverlay_111598/mudguardoverlay_111598_normal.png"
+    },
+
+    "lining_92447_dsg" : {
+      "url" : "materials/lining_92447/lining_92447_dsg.png"
+    },
+    "lining_92447_normal" : {
+      "url" : "materials/lining_92447/lining_92447_normal.png"
+    },
+
+    "heelloop_1617_dsg" : {
+      "url" : "/materials/heelloop_1617/heelloop_1617_dsg.png"
+    },
+    "heelloop_1617_normal" : {
+      "url" : "/materials/heelloop_1617/heelloop_1617_normal.png"
+    },
+
+    "overlay_108499_dsg" : {
+      "url" : "materials/overlay_108499/overlay_108499_dsg.png"
+    },
+    "overlay_108499_normal" : {
+      "url" : "materials/overlay_108499/overlay_108499_normal.png"
+    },
+
+    "base_230250_normal" : {
+      "url" : "materials/base_230250/base_230250_normal.png",
+      "anisotropy" : 2
+    },
+    "base_230250_dsg" : {
+      "url" : "materials/base_230250/base_230250_dsg.png",
+      "anisotropy" : 2
+    },
+    "base_230250_dots" : {
+      "url" : "materials/base_230250/base_230250_dots_alpha.png",
+      "anisotropy" : 1
+    },
+
+    "laces_normal" : {
+      "url" : "materials/laces/laces_normal.png",
+      "anisotropy" : 4
+    },
+    "laces_dsg" : {
+      "url" : "materials/laces/laces_dsg.png",
+      "anisotropy" : 4
+    },
+
+    "quarter_134578_normal" : {
+      "url" : "/materials/quarter_134578/quarter_134578_normal.png"
+    },
+    "quarter_134578_dsg" : {
+      "url" : "/materials/quarter_134578/quarter_134578_dsg.png"
+    },
+
+    "outsole_gradient" : {
+      "url" : "materials/gradients/outsole_gradient.png"
+    },
+
+    "overlay_gradient_lf" : {
+      "url" : "materials/gradients/overlay_gradient_lf.png"
+    },
+    "overlay_gradient_rt" : {
+      "url" : "materials/gradients/overlay_gradient_rt.png"
+    },
+
+    "sockliner_logo" : {
+      "url" : "/materials/decals/sockliner_airmax_logo.png",
+      "repeat" : false
+    },
+
+    "airbag_m1" : {
+      "url" : "materials/airbag/airbag_m1.png"
+    },
+    "airbag_m2" : {
+      "url" : "materials/airbag/airbag_m2.png"
+    },
+    "airbag_m3" : {
+      "url" : "materials/airbag/airbag_m3.png"
+    },
+    "airbag_m4" : {
+      "url" : "materials/airbag/airbag_m4.png"
+    },
+    "airbag_m5" : {
+      "url" : "materials/airbag/airbag_m5.png"
+    },
+    "airbag_m6" : {
+      "url" : "materials/airbag/airbag_m6.png"
+    },
+
+    "icon_nyc_day" : {
+      "url" : "/materials/icons/have_a_nyc_day_diffuse.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_nyc_day_normal" : {
+      "url" : "/materials/icons/have_a_nyc_day_normal.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_nyc_cab" : {
+      "url" : "/materials/icons/nyc_cab_diffuse.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_nyc_cab_normal" : {
+      "url" : "/materials/icons/nyc_cab_normal.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_butterfly_swoosh" : {
+      "url" : "/materials/icons/butterfly_swoosh_diffuse.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_butterfly_swoosh_normal" : {
+      "url" : "/materials/icons/butterfly_swoosh_normal.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_lady_liberty" : {
+      "url" : "/materials/icons/lady_liberty_diffuse.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_lady_liberty_normal" : {
+      "url" : "/materials/icons/lady_liberty_normal.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_lava_lamp" : {
+      "url" : "/materials/icons/lava_lamp_diffuse.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_lava_lamp_normal" : {
+      "url" : "/materials/icons/lava_lamp_normal.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_love_ny" : {
+      "url" : "/materials/icons/love_ny_diffuse.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_love_ny_normal" : {
+      "url" : "/materials/icons/love_ny_normal.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_mushroom_swoosh" : {
+      "url" : "/materials/icons/mushroom_swoosh_diffuse.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_mushroom_swoosh_normal" : {
+      "url" : "/materials/icons/mushroom_swoosh_normal.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_nyc_love" : {
+      "url" : "/materials/icons/nyc_love_diffuse.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    "icon_nyc_love_normal" : {
+      "url" : "/materials/icons/nyc_love_normal.png",
+      "repeat" : false,
+      "mipmaps" : false
+    },
+    
+    "icon_wavy_logo" : {
+      "url" : "/materials/icons/wavy_logo_diffuse.png",
+      "repeat" : false
+    },
+    "icon_wavy_logo_normal" : {
+      "url" : "/materials/icons/wavy_logo_normal.png",
+      "repeat" : false
+    },
+
+    "icon_groovy_logo" : {
+      "url" : "/materials/icons/groovy_logo_diffuse.png",
+      "repeat" : false
+    },
+    "icon_groovy_logo_normal" : {
+      "url" : "/materials/icons/groovy_logo_normal.png",
+      "repeat" : false
+    },
+
+    "tongue_7662_dsg" : {
+      "url" : "/react55/materials/tongue_7662/tongue_7662_dsg.png"
+    },
+    "tongue_7662_normal" : {
+      "url" : "/react55/materials/tongue_7662/tongue_7662_normal.png"
+    },
+
+    "tongue_embroidery_normal" : {
+      "url" : "materials/tongue_embroidery_normal.png",
+      "repeat" : false
+    },
+
+    "tongue_embroidery_shadow" : {
+      "url" : "materials/tongue_embroidery_shadow.png",
+      "repeat" : false
+    },
+
+
+    "outsole_interior" : {
+      "url" : "materials/outsole_interior.png"
+    }
+  },
+
+  "colors" : {
+    "black": "#242424",
+    "white": "#F7F8F9",
+    "light_aqua": "#83DAD0",
+    "blue_void": "#26314D",
+    "racer_blue": "#2252A9",
+    "hyper_violet": "#B7379A",
+    "flash_crimson": "#FF725F",
+    "barely_volt": "#e4ffbf",
+    "laser_orange": "#FFA92D",
+    "orange_pulse": "#FC9A6D",
+
+
+    "hyper_turq": "#83DAD0",
+    "binary_blue": "#1C2A47",
+    "treasure_blue": "#0540B2",
+    "vivid_purple": "#BA389D",
+    "solar_red": "#FF625F",
+    "volt": "#d7ff35",
+    "varsity_maize": "#FFA92D",
+    "bright_citrus": "#FA9B78",
+
+    "metallic_silver": "#d7e1ec",
+    
+    "radiant_emerald": "#05666e",
+    "midnight_navy": "#2d3549",
+
+    "gradient1": "#FF725F",
+    "gradient2": "#83DAD0",
+    "gradient3": "#83DAD0",
+    "gradient4": "#B7379A",
+    "gradient5": "#FF725F",
+    "gradient6": "#FF725F"
+  },
+
+  "attachments": {
+    "airbag": {
+      "position": [
+        -5.24560251986837,
+        -1.2214230849463181,
+        1.8848884179746146
+      ],
+      "direction": [
+        -0.11436620776445032,
+        0.8259963311896124,
+        0.5519514755690748
+      ],
+      "group": "right"
+    },
+    "sole": {
+      "position": [
+        1.764705175395508,
+        -1.9165370491552784,
+        2.8664019486960166
+      ],
+      "direction": [
+        -0.17601316797918212,
+        0,
+        0.9843878121441427
+      ],
+      "group": "right"
+    },
+    "tongue": {
+      "position": [
+        -0.9237616558641457,
+        4.063979427951711,
+        0.8724710336605135
+      ],
+      "direction": [
+        0.3508234666838493,
+        0.7941181754591279,
+        0.4962854205287436
+      ],
+      "group": "right"
+    },
+    "laces": {
+      "position": [
+        2.3825813043974615,
+        1.1873102143525163,
+        1.5312556454473913
+      ],
+      "direction": [
+        -0.024351500236864124,
+        0.41983499691861287,
+        0.9072737072121965
+      ],
+      "group": "right"
+    },
+    "swoosh": {
+      "position": [
+        -0.05015437724334007,
+        0.25729590676770864,
+        2.27474159461213
+      ],
+      "direction": [
+        -0.013895449956073565,
+        0.14413071222021237,
+        0.9894610928507561
+      ],
+      "group": "right"
+    },
+    
+    "heel": {
+      "position": [
+        -5.352628995162979,
+        1.447277367790849,
+        1.3262677203888877
+      ],
+      "direction": [
+        -0.5646543866459848,
+        0.19986201081001886,
+        0.8007625117826275
+      ],
+      "group": "right"
+    },
+    
+    "heel_old": {
+      "position": [
+        -5.819333860368289,
+        1.2781705547170292,
+        0.976050039095341
+      ],
+      "direction": [
+        -0.7285285811249381,
+        0.20863944802605586,
+        0.6524689166630601
+      ],
+      "group": "right"
+    },
+    "toe": {
+      "position": [
+        6.0300271406952355,
+        -0.4590563018186839,
+        1.4422096827548505
+      ],
+      "direction": [
+        0.2180707259499689,
+        0.9104571587107965,
+        0.3514440505057912
+      ],
+      "group": "right"
+    },    
+    "learn-1": {
+      "position": [
+        0.320669980811395,
+        -0.578522280408424,
+        1.4882511647638244
+      ],
+      "direction": [
+        -0.033402524619118176,
+        0.30402908015671987,
+        0.9520769873114926
+      ],
+      "group": "right"
+    }
+  },
+
+  "canvases" : {
+    "left_heel" : {
+      "width" : 128,
+      "height" : 512
+    },
+    "right_heel" : {
+      "width" : 128,
+      "height" : 512
+    }
+  },
+
+  "material-types": {
+
+    "leather_74403" : {
+      "substanceMap" : "leather_74403_dsg",
+      "normalMap" : "leather_74403_normal",
+      "glossiness" : 5,
+      "normalScale" : 1.75,
+      "transform" : {
+        "offset" : [0, 0],
+        "scale" : [20, 20],
+        "angle" : 0
+      },
+      "colors": {
+        "white": "#F9FAFB",
+        "black": "#272727",
+        "light_aqua": "#93F7F2",
+        "blue_void": "#2B3246",
+        "racer_blue": "#33579C",
+        "hyper_violet": "#953983",
+        "flash_crimson": "#FF625F",
+        "barely_volt": "#DDFFBA",
+        "laser_orange": "#FFA315",
+        "orange_pulse": "#FA926F"
+      }
+    },
+
+    "midsoleBump_49084" : {
+      "substanceMap" : "midsoleBump_49084_dsg",
+      "normalMap" : "midsoleBump_49084_normal",
+      "transform" : {
+        "scale" : 30
+      },
+      "colors": {
+        "white": "#FFFFFF",
+        "black": "#2c2c2c",
+        "barely_volt": "#DDFFBA"
+      }
+    },
+
+    "mudguard_111598" : {
+      "substanceMap" : "tongue_7662_dsg",
+      "substanceMin" : [0.597, -0.503, 0],
+      "substanceMax" : [ 1.091, 2, 1 ],
+      "normalMap" : "tongue_7662_normal",
+      "normalScale" : 2,
+      "glossiness" : 2,
+      "specularPower" : 0.375,
+      "transform" : {
+        "scale" : 18
+      }
+    },
+
+    "mudguard_111598_old" : {
+      "substanceMap" : "mudguard_111598_dsg",
+      "substanceMin" : [0.769, 0, 0],
+      "substanceMax" : [1, 1, 1],
+      "normalMap" : "mudguard_111598_normal",
+      "normalScale" : 1.5,
+      "glossiness" : 2,
+      "specularPower" : 0.375,
+      "transform" : {
+        "scale" : 40
+      }
+    },
+
+    "1147_stitching" : {
+      "substanceMap" : "1147_dsg",
+      "normalMap" : "1147_normal",
+      "glossiness" : 5,
+      "transform" : {
+        "scale" : 600,
+        "angle" : 45
+      },
+      "colors": {
+        "white": "#F7F8FF",
+        "black": "#1C1C1C",
+        "light_aqua": "#AEF7F2",
+        "blue_void": "#1C2A47",
+        "racer_blue": "#0540B2",
+        "hyper_violet": "#BA389D",
+        "flash_crimson": "#FF5E5B",
+        "barely_volt": "#DDFFBA",
+        "orange_pulse": "#FA9B78"
+      }
+    },
+    "lining_92447" : {
+      "substanceMap" : "lining_92447_dsg",
+      "normalMap" : "lining_92447_normal",
+      "transform" : {
+        "scale" : 20
+      },
+      "colors": {
+        "white": "#FFFFFA",
+        "black": "#1C1C1C",
+        "light_aqua": "#95E1D4",
+        "blue_void": "#283055",
+        "racer_blue": "#274AA2",
+        "flash_crimson": "#FF5E5B",
+        "laser_orange": "#FFA315",
+        "orange_pulse": "#F09368"
+      }
+    },
+
+    "heelloop_1617" : {
+      "substanceMap" : "heelloop_1617_dsg",
+      "substanceMin" : [-0.938, 0, 0],
+      "substanceMax" : [1, 1, 1],
+      "normalMap" : "heelloop_1617_normal",
+      "normalScale" : 2,
+      "glossiness" : 8.00,
+      "transform" : {
+        "scale" : 40
+      },
+      "colors": {
+        "white": "#F3F5FE",
+        "black": "#1C1C1C",
+        "light_aqua": "#85F5E9",
+        "blue_void": "#19214B",
+        "racer_blue": "#0F45AB",
+        "flash_crimson": "#FF8570",
+        "barely_volt": "#DDFFBA",
+        "laser_orange": "#FFAE4C",
+        "orange_pulse": "#FA9B78"
+      }
+    },
+
+    "overlay_108499" : {
+      "substanceMap" : "tongue_7662_dsg",
+      "substanceMin" : [0.597, -0.503, 0],
+      "substanceMax" : [ 1.091, 2, 1 ],
+      "normalMap" : "tongue_7662_normal",
+      "glossiness" : 1,
+      "normalScale" : 1.5,
+      "transform" : {
+        "scale" : 25
+      },
+      "colors": {
+        "gradient1": [
+          "#FFA92D",
+          "#FF725F"
+        ],
+        "gradient2": [
+          "#83DAD0",
+          "#E4FFBF"
+        ],
+        "gradient3": [
+          "#83DAD0",
+          "#FC9A6D"
+        ],
+        "gradient4": [
+          "#B7379A",
+          "#FC9A6D"
+        ],
+        "gradient5": [
+          "#FF725F",
+          "#E4FFBF"
+        ],
+        "gradient6": [
+          "#FF725F",
+          "#2252A9"
+        ]
+      }
+    },
+
+    "overlay_108499_old" : {
+      "substanceMap" : "overlay_108499_dsg",
+      "normalMap" : "overlay_108499_normal",
+      "glossiness" : 1,
+      "normalScale" : 1.5,
+      "transform" : {
+        "scale" : 25
+      }
+    },
+
+    "base_230250" : {
+      "normalMap" : "base_230250_normal",
+      "substanceMap" : "base_230250_dsg",
+      "pattern" : {
+        "thickness" : 0,
+        "diffuseMap" : "base_230250_dots",
+        "transform" : {
+          "scale" : 75
+        }
+      },
+      "glossiness" : 1,
+      "normalScale" : 3,
+      "transform" : {
+        "scale" : 75
+      },
+      "colors": {
+        "white": "#F9FAFB",
+        "black": "#272727",
+        "blue_void": "#34384C",
+        "racer_blue": "#38416B",
+        "flash_crimson": "#FF8570",
+        "barely_volt": "#F1FDD3",
+        "laser_orange": "#FBB168"
+      }
+    },
+
+    "quarter_134578" : {
+      "normalMap" : "quarter_134578_normal",
+      "substanceMap" : "quarter_134578_dsg",
+      "substanceMin" : [1.305, 0, 0],
+      "substanceMax" : [0.854, 0.474, 2],
+      "normalScale" : 2,
+      "glossiness" : 20,
+      "transform" : {
+        "scale" : 30
+      },
+      "colors": {
+        "white": "#F9F9F9",
+        "black": "#323232",
+        "light_aqua": "#54DACD",
+        "blue_void": "#2E3850",
+        "racer_blue": "#1C47AA",
+        "hyper_violet": "#8F3F7F",
+        "barely_volt": "#EBFFCE",
+        "laser_orange": "#FFA427",
+        "orange_pulse": "#FC9068"
+      }
+    },
+
+    "laces" : {
+      "normalMap" : "laces_normal",
+      "substanceMap" : "laces_dsg",
+      "substanceMin" : [-0.663, 0, 0],
+      "substanceMax" : [1.51, 1, 1],
+      "normalScale" : 3.0,
+      "transform" : {
+        "scale" : [150, 350]
+      },
+      "colors": {
+        "white": "#FBFAFF",
+        "black": "#1C1C1C",
+        "light_aqua": "#AEF7F2",
+        "blue_void": "#19214B",
+        "racer_blue": "#274AA2",
+        "flash_crimson": "#FC7A64",
+        "barely_volt": "#DDFFBA",
+        "laser_orange": "#FFAC5D",
+        "orange_pulse": "#FA9B78"
+      }
+    },
+
+    "outsole_shared" : {
+      "transparent" : true,
+      "translucent" : true,
+      "useAOMap" : false,
+      "normalMap" : "midsoleBump_49084_normal",
+      "transform" : {
+        "scale" : 30
+      },
+      "colorMap" : "outsole_gradient",
+      "colorCount" : 2,
+      "colorSteps" : 1,
+      "colors" : {
+        "gradient1" : ["#cd2b3a:0.1",  "#cc9c3d:0.1"],
+        "gradient2" : ["#84e3d1:0.1", "#e6efa0:0.1"],
+        "gradient3" : ["#84e3d1:0.1", "#d38965:0.1"],
+        "gradient4" : ["#a44a93:0.1", "#d38965:0.1"],
+        "gradient5" : ["#cd2b3a:0.1",  "#e6efa0:0.1"],
+        "gradient6" : ["#cd2b3a:0.1",  "#8468fe:0.1"]
+      }
+    },
+
+    "outsole_solid" : {
+      "interiorDepth" : 0.0,
+      "interiorIntensity" : 0.0,
+      "useEnvMap" : true,
+      "gumColor" : "#ffffff",
+      "gumMix" : 1.0,
+      "interiorMap" : "null:white"
+    },
+
+    "overlay_shared" : {
+      "colorCount" : 2,
+      "colorSteps" : 1,
+      "colors" : {
+        "gradient1" : ["#e84c5b", "#fab938"],
+        "gradient2" : ["#9acec4", "#e3eaaa"],
+        "gradient3" : ["#9acec4", "#f6a780"],
+        "gradient4" : ["#923a82", "#f6a780"],
+        "gradient5" : ["#e84c5b", "#e3eaaa"],
+        "gradient6" : ["#e84c5b", "#44377d"]
+      }
+    },
+
+    "sockliner_logo" : {
+      "pattern" : {
+        "color" : "#ffffff",
+        "diffuseMap" : "sockliner_logo",
+        "transform" : {
+          "offset" : [0.3513, 0.3934],
+          "scale" : [-7.8, -28.6],
+          "angle" : -90,
+          "mirrorAngle" : false
+        }
+      }
+    },
+
+    "airbag_m1" : {
+      "opacity" : 1,
+      "diffuseMap" : "airbag_m1"
+    },
+    "airbag_m2" : {
+      "opacity" : 1,
+      "diffuseMap" : "airbag_m2"
+    },
+    "airbag_m3" : {
+      "opacity" : 1,
+      "diffuseMap" : "airbag_m3"
+    },
+    "airbag_m4" : {
+      "opacity" : 1,
+      "diffuseMap" : "airbag_m4"
+    },
+    "airbag_m5" : {
+      "opacity" : 1,
+      "diffuseMap" : "airbag_m5"
+    },
+    "airbag_m6" : {
+      "opacity" : 1,
+      "diffuseMap" : "airbag_m6"
+    },
+    "airbag_solid" : {
+      "opacity" : 0.7,
+      "diffuseMap" : "null:white",
+      "colors": {
+        "white": "#D7E1EC",
+        "hyper_violet": "#C130A0",
+        "barely_volt": "#DEFF9A"
+      }
+    },
+
+
+    "icon_shared" : {
+      "pattern" : {
+        "thickness" : 0.5,
+        "specularPower" : 1,
+        "glossiness" : 16,
+        "normalScale" : 0.5
+      }
+    },
+
+    "icon_nyc_day" : {
+      "pattern" : {
+        "diffuseMap" : "icon_nyc_day",
+        "normalMap" : "icon_nyc_day_normal"
+      }
+    },
+    "icon_nyc_cab" : {
+      "pattern" : {
+        "diffuseMap" : "icon_nyc_cab",
+        "normalMap" : "icon_nyc_cab_normal"        
+      }
+    },
+    "icon_butterfly_swoosh" : {
+      "pattern" : {
+        "diffuseMap" : "icon_butterfly_swoosh",
+        "normalMap" : "icon_butterfly_swoosh_normal"
+      }
+    },
+    "icon_lady_liberty" : {
+      "pattern" : {
+        "diffuseMap" : "icon_lady_liberty",
+        "normalMap" : "icon_lady_liberty_normal"
+      }
+    },
+    "icon_lava_lamp" : {
+      "pattern" : {
+        "diffuseMap" : "icon_lava_lamp",
+        "normalMap" : "icon_lava_lamp_normal"
+      }
+    },
+    "icon_love_ny" : {
+      "pattern" : {
+        "diffuseMap" : "icon_love_ny",
+        "normalMap" : "icon_love_ny_normal"
+      }
+    },
+    "icon_mushroom_swoosh" : {
+      "pattern" : {
+        "diffuseMap" : "icon_mushroom_swoosh",
+        "normalMap" : "icon_mushroom_swoosh_normal"
+      }
+    },
+    "icon_nyc_love" : {
+      "pattern" : {
+        "diffuseMap" : "icon_nyc_love",
+        "normalMap" : "icon_nyc_love_normal"
+      }
+    },
+
+    "icon_wavy_logo" : {
+      "pattern" : {
+        "diffuseMap" : "icon_wavy_logo",
+        "normalMap" : "icon_wavy_logo_normal"
+      }
+    },
+    "icon_groovy_logo" : {
+      "pattern" : {
+        "diffuseMap" : "icon_groovy_logo",
+        "normalMap" : "icon_groovy_logo"
+      }
+    },
+
+    "icon_solid" : {
+      "pattern" : {
+        "thickness" : 0,
+        "normalMap" : "null:normal",
+        "diffuseMap" : "null:diffuse",
+        "transform" : {
+          "offset" : [-0.2584, -0.2626],
+          "scale" : [21, 21],
+          "angle" : 0
+        }
+      }
+    },
+
+    "tongue_embroidery_left" : {
+      "pattern" : {
+        "thickness" : 1,
+        "normalMap" : "tongue_embroidery_normal",
+        "diffuseMap" : "tongue_embroidery_shadow",
+        "transform" : {
+            "offset" : [-0.2584, -0.2632],
+            "scale" : [15.97, 15.97],
+            "angle" : 0
+        }
+      }
+    },
+
+    "tongue_embroidery_right" : {
+      "pattern" : {
+        "thickness" : 1,
+        "normalMap" : "tongue_embroidery_normal",
+        "diffuseMap" : "tongue_embroidery_shadow",
+        "transform" : {
+          "offset" : [-0.2575, -0.2633],
+          "scale" : [16.07, 16.11],
+          "angle" : -3.2
+        }
+      }
+    },
+
+    "heel_pid_left" : {
+      "pattern" : {
+        "diffuseMap" : "canvas:left_heel",
+        "color": "#404040",
+        "thickness" : 0,
+        "transform" : {
+          "offset" : [-0.2776, -0.3862],
+          "scale" : [72, 18],
+          "angle" : -1.2
+        },
+        "colors": {
+          "hyper_turq": "#b5f7f3",
+          "treasure_blue": "#0550e3",
+          "hyper_violet": "#d442b3",
+          "vivid_purple": "#d138af",
+          "solar_red": "#ff4642"
+        }
+      }
+    },
+    "heel_pid_right" : {
+      "pattern" : {
+        "diffuseMap" : "canvas:right_heel",
+        "color": "#404040",
+        "thickness" : 0,
+        "transform" : {
+          "offset" : [0.2769, -0.3871],
+          "scale" : [72, 18],
+          "angle" : 1.2
+        },
+        "colors": {
+          "hyper_turq": "#b5f7f3",
+          "treasure_blue": "#0550e3",
+          "hyper_violet": "#d442b3",
+          "vivid_purple": "#d138af",
+          "solar_red": "#ff4642"
+        }
+      }
+    },
+    "heel_pid_blank" : {
+      "pattern" : {
+        "thickness" : 0,
+        "diffuseMap" : "null:diffuse",
+        "normalMap" : "null:normal"
+      }
+    },
+
+    "outsole_gum" : {
+      "opacity" : 0.975,
+      "specularPower" : 1,
+      "glossiness" : 0.25,
+      "interiorDepth" : -0.07,
+      "interiorIntensity" : 0.475,
+      "interiorMap" : "outsole_interior",
+      "gumColor" : "#b5c6d4",
+      "gumMix" : 0.65,
+      "colors": {
+        "white": [
+          "#EFF2F3",
+          "#F7F8F9"
+        ],
+        "black": [
+          "#272727",
+          "#242424"
+        ],
+        "light_aqua": [
+          "#7AD0C9",
+          "#83DAD0"
+        ],
+        "blue_void": [
+          "#2E3850",
+          "#26314D"
+        ],
+        "hyper_violet": [
+          "#B7379A",
+          "#C130A0"
+        ],
+        "barely_volt": [
+          "#EAFFB9",
+          "#e4ffbf"
+        ],
+        "orange_pulse": [
+          "#FF9433",
+          "#FC9A6D"
+        ],
+        "gradient1": [
+          "#FF725F",
+          "#FFA92D"
+        ],
+        "gradient2": [
+          "#7AD0C9",
+          "#EAFFB9"
+        ],
+        "gradient3": [
+          "#83DAD0",
+          "#FF9433"
+        ],
+        "gradient4": [
+          "#B7379A",
+          "#FF9433"
+        ],
+        "gradient5": [
+          "#FF725F",
+          "#E4FFBF"
+        ],
+        "gradient6": [
+          "#FF725F",
+          "#2252A9"
+        ]
+      }
+    },
+
+    "gum_bumps" : {
+      "gumMix" : 0.4,
+      "gumColor" : "#b5c6d4",
+      "colors": {
+        "black": [
+          "#272727",
+          "#242424"
+        ],
+        "light_aqua": [
+          "#7AD0C9",
+          "#83DAD0"
+        ],
+        "blue_void": [
+          "#26314D",
+          "#2E3850"
+        ],
+        "hyper_violet": [
+          "#C130A0",
+          "#B7379A"
+        ],
+        "barely_volt": [
+          "#EAFFB9",
+          "#e4ffbf"
+        ],
+        "orange_pulse": [
+          "#FF9433",
+          "#FC9A6D"
+        ],
+        "gradient1": [
+          "#FF725F",
+          "#FFA92D"
+        ],
+        "gradient2": [
+          "#7AD0C9",
+          "#EAFFB9"
+        ],
+        "gradient3": [
+          "#83DAD0",
+          "#FF9433"
+        ],
+        "gradient4": [
+          "#B7379A",
+          "#FF9433"
+        ],
+        "gradient5": [
+          "#FF725F",
+          "#EAFFB9"
+        ],
+        "gradient6": [
+          "#FF725F",
+          "#2252A9"
+        ]
+      }
+    }
+    
+  },
+
+  
+  "materials": {
+
+    "outsole_base" : {
+      "type" : "translucent",
+      "material" : "outsole_shared,outsole_gum"
+    },
+
+    "outsole_bumps" : {
+      "type" : "translucent",
+      "material" : "outsole_shared,outsole_gum,gum_bumps"
+    },
+
+    "g1_base" : {
+      "type" : "tiled_",
+      "color" : "#504486",
+      "material" : "base_230250",
+      "useEnvMap" : true ,
+      "renderOrder" : 50
+    },
+
+    "g2_base_overlay_left" : {
+      "type" : "tiled_",
+      "color" : "#99327f",
+      "material" : "overlay_shared,overlay_108499",
+      "colorMap" : "overlay_gradient_lf",
+      "useEnvMap" : true,
+      "renderOrder" : 30
+    },
+
+    "g2_base_overlay_right" : {
+      "type" : "tiled_",
+      "color" : "#99327f",
+      "material" : "overlay_shared,overlay_108499",
+      "colorMap" : "overlay_gradient_rt"
+    },
+
+    "g3_overlay" : {
+      "type" : "tiled_",
+      "color" : "#67b03d",
+      "material" : "mudguard_111598",
+      "useEnvMap" : true
+    },
+
+    "g3_heel_tab_left" : {
+      "type" : "tiled_",
+      "material" : "mudguard_111598,heel_pid_blank",
+      "useEnvMap" : true
+    },
+
+    "g3_heel_tab_right" : {
+      "type" : "tiled_",
+      "material" : "mudguard_111598,heel_pid_blank",
+      "useEnvMap" : true
+    },
+
+    "g3_heel_stitching" : {
+      "type" : "tiled_",
+      "color" : "#67b03d",
+      "material" : "1147_stitching",
+      "renderOrder" : 400
+    },
+
+    "g4_swoosh" : {
+      "type" : "tiled_",
+      "color" : "#2f2925",
+      "material" : "overlay_108499",
+      "useEnvMap" : true
+    },
+
+    "g5_lining" : {
+      "type" : "tiled_",
+      "color" : "#f6a780",
+      "material" : "lining_92447",
+      "useEnvMap" : true,
+      "renderOrder" : 100
+    },
+
+    "g5_eyestay" : {
+      "type" : "tiled_",
+      "color" : "#f6a780",
+      "material" : "mudguard_111598",
+      "useEnvMap" : true,
+      "renderOrder" : 20
+    },
+
+    "g5_eyestay_top" : {
+      "type" : "tiled_",
+      "color" : "#f6a780",
+      "material" : "leather_74403",
+      "useEnvMap" : true,
+      "renderOrder" : 10
+    },
+    
+    "g5_stitching" : {
+      "type" : "tiled_",
+      "color" : "#f6a780",
+      "material" : "1147_stitching",
+      "renderOrder" : 400
+    },
+
+    "g6_accent_stitching" : {
+      "type" : "tiled_",
+      "color" : "#46336c",
+      "material" : "1147_stitching",
+      "renderOrder" : 400
+    },
+
+    "g7_pulltab" : {
+      "type" : "tiled_",
+      "color" : "#3b4938",
+      "material" : "heelloop_1617",
+      "useEnvMap" : true
+    },
+
+    "g7_eyelets" : {
+      "type" : "tiled_",
+      "color" : "#3b4938",
+      "material" : "heelloop_1617",
+      "useEnvMap" : true,
+      "renderOrder" : 60
+    },
+
+    "g7_pulltab_stitching" : {
+      "type" : "tiled_",
+      "color" : "#3b4938",
+      "material" : "1147_stitching",
+      "renderOrder" : 400
+    },
+
+    "g8_quarter" : {
+      "type" : "tiled_",
+      "color" : "#6b242d",
+      "material" : "quarter_134578",
+      "useEnvMap" : true,
+      "renderOrder" : 40
+    },
+
+    "g8_tongue_left" : {
+      "type" : "tiled_",
+      "color" : "#6b242d",
+      "pattern" : {
+        "normalScale" : 0.75
+      },
+      "material" : "lining_92447,icon_solid" ,
+      "normalScale" : 1.75,
+      "renderOrder" : 45
+    },
+
+    "g8_tongue_right" : {
+      "type" : "tiled_",
+      "color" : "#6b242d",
+      "pattern" : {
+        "normalScale" : 0.75
+      },
+      "material" : "lining_92447,icon_solid" ,
+      "normalScale" : 1.75,
+      "renderOrder" : 45
+    },
+
+    "g8_tongue_lace_loop" : {
+      "type" : "tiled_",
+      "color" : "#6b242d",
+      "material" : "heelloop_1617",
+      "useEnvMap" : true
+    },
+
+    "g8_tongue_stitching" : {
+      "type" : "tiled_",
+      "color" : "#6b242d",
+      "material" : "1147_stitching",
+      "renderOrder" : 400
+    },
+
+    "g9_laces"  : {
+      "type" : "tiled_",
+      "color" : "#e4322b",
+      "material" : "laces",
+      "useEnvMap" : true,
+      "renderOrder" : 150
+    },
+
+    "g10_airbag" : {
+      "type" : "tiled_",
+      "useAOMap" : false,
+      "useEnvMap" : true,
+      "color" : "#e84c5b",
+      "transparent" : true,
+      "opacity" : 1,
+      "specularPower" : 0.65,
+      "glossiness" : 10,
+      "material" : "airbag_solid",
+      "transform" : {
+        "offset" : [0, 0.0042],
+        "scale" : [1, 4],
+        "angle" : 0
+      }
+    },
+
+    "g10_airbag_interior" : {
+      "type" : "tiled_",
+      "color" : "#e84c5b"
+    },
+
+    "g11_midsole" : {
+      "type" : "tiled_",
+      "useAOMap" : false,
+      "color" : "#fffefd",
+      "material" : "midsoleBump_49084",
+      "renderOrder" : 25
+    },
+
+    "g11_midsole_smooth" : {
+      "type" : "tiled_",
+      "useAOMap" : false,
+      "color" : "#fffefd",
+      "renderOrder" : 26,
+      "colors": {
+        "barely_volt": "#DDFFBA",
+        "black": "#2c2c2c"
+      }
+    },
+
+    "g12_outsole_left" : {
+      "type" : "tiled_",
+      "material" : "outsole_shared",
+      "colorMap" : "outsole_gradient_lf"
+    },
+
+    "g12_outsole_right" : {
+      "type" : "tiled_",
+      "material" : "outsole_shared",
+      "colorMap" : "outsole_gradient_rt"
+    },
+
+    "g12_outsole_left_fine" : {
+      "type" : "tiled_",
+      "material" : "outsole_shared",
+      "colorMap" : "outsole_gradient_lf"
+    },
+
+    "g12_outsole_right_fine" : {
+      "type" : "tiled_",
+      "material" : "outsole_shared",
+      "colorMap" : "outsole_gradient_rt"
+    },
+
+    "g12_outsole_left_smooth" : {
+      "type" : "tiled_",
+      "color" : "#eaf4fa",
+      "material" : "outsole_shared",
+      "colorMap" : "outsole_gradient_lf"
+    },
+
+    "g12_outsole_right_smooth" : {
+      "type" : "tiled_",
+      "color" : "#eaf4fa",
+      "material" : "outsole_shared",
+      "colorMap" : "outsole_gradient_rt"
+    },
+
+    "g13_tongue_logo" : {
+      "type" : "tiled_",
+      "color" : "#ffffff",
+      "colors": {
+        "white": "#F7F8FF",
+        "black": "#1C1C1C",
+        "light_aqua": "#AEF7F2",
+        "blue_void": "#1C2A47",
+        "racer_blue": "#0540B2",
+        "hyper_violet": "#BA389D",
+        "flash_crimson": "#FF5E5B",
+        "barely_volt": "#DDFFBA",
+        "orange_pulse": "#FA9B78"
+      }
+    },
+
+    "g14_heel_swoosh" : {
+      "type" : "tiled_",
+      "color" : "#fab938",
+      "colors": {
+        "white": "#F7F8FF",
+        "light_aqua": "#AEF7F2",
+        "blue_void": "#1C2A47",
+        "racer_blue": "#0540B2",
+        "hyper_violet": "#BA389D",
+        "flash_crimson": "#FF5E5B",
+        "barely_volt": "#DDFFBA",
+        "orange_pulse": "#FA9B78"
+      }
+    },
+
+    "sockliner" : {
+      "type" : "tiled_",
+      "color" : "#000000",
+      "material" : "sockliner_logo",
+      "renderOrder" : 200
+    }
+    
+  },
+
+  "geometry": {
+    "left": {
+      "lf_group1_base": {
+        "url": "geometry/lf_group1_base.drc",
+        "material": "g1_base",
+        "aoChannel": 0
+      },
+      "lf_group1_tongue_base": {
+        "url": "geometry/lf_group1_tongue_base.drc",
+        "material": "g1_base",
+        "aoChannel": 0
+      },
+      "lf_group2_base_overlay": {
+        "url": "geometry/lf_group2_base_overlay.drc",
+        "material": "g2_base_overlay_left",
+        "aoChannel": 0
+      },
+      "lf_group3_heel_overlay": {
+        "url": "geometry/lf_group3_heel_overlay.drc",
+        "material": "g3_overlay",
+        "aoChannel": 0
+      },
+      "lf_group3_heel_tab": {
+        "url": "geometry/lf_group3_heel_tab.drc",
+        "material": "g3_heel_tab_left",
+        "aoChannel": 0
+      },
+      "lf_group3_heel_tab_stitch": {
+        "url": "geometry/lf_group3_heel_tab_stitch.drc",
+        "material": "g3_heel_stitching",
+        "aoChannel": 0
+      },
+      "lf_group3_mudguard_overlay": {
+        "url": "geometry/lf_group3_mudguard_overlay.drc",
+        "material": "g3_overlay",
+        "aoChannel": 0
+      },
+      "lf_group4_swoosh_traditional": {
+        "url": "geometry/lf_group4_traditional_swoosh.drc",
+        "material": "g4_swoosh",
+        "aoChannel": 0
+      },
+      "lf_group4_swoosh_wavy": {
+        "url": "geometry/lf_group4_wavy_swoosh.drc",
+        "material": "g4_swoosh",
+        "aoChannel": 0
+      },
+      "lf_group5_collar_lining": {
+        "url": "geometry/lf_group5_collar_lining.drc",
+        "material": "g5_lining",
+        "aoChannel": 0
+      },
+      "lf_group5_eyestay": {
+        "url": "geometry/lf_group5_eyestay.drc",
+        "material": "g5_eyestay",
+        "aoChannel": 0
+      },
+      "lf_group5_lining_stitch": {
+        "url": "geometry/lf_group5_lining_stitch.drc",
+        "material": "g5_stitching",
+        "aoChannel": 0
+      },
+      "lf_group5_tongue_lining": {
+        "url": "geometry/lf_group5_tongue_lining.drc",
+        "material": "g5_lining",
+        "aoChannel": 0
+      },
+      "lf_group5_top_eyestay": {
+        "url": "geometry/lf_group5_top_eyestay.drc",
+        "material": "g5_eyestay_top",
+        "aoChannel": 0
+      },
+      "lf_group5_top_eyestay_stitch": {
+        "url": "geometry/lf_group5_top_eyestay_stitch.drc",
+        "material": "g5_stitching",
+        "aoChannel": 0
+      },
+      "lf_group6_eyestay_stitch": {
+        "url": "geometry/lf_group6_eyestay_stitch.drc",
+        "material": "g6_accent_stitching",
+        "aoChannel": 0
+      },
+      "lf_group7_eyelets": {
+        "url": "geometry/lf_group7_eyelets.drc",
+        "material": "g7_eyelets",
+        "aoChannel": 0
+      },
+      "lf_group7_heel_pull_tab": {
+        "url": "geometry/lf_group7_heel_pull_tab.drc",
+        "material": "g7_pulltab",
+        "aoChannel": 0
+      },
+      "lf_group7_heel_pull_tab_stitch": {
+        "url": "geometry/lf_group7_heel_pull_tab_stitch.drc",
+        "material": "g7_pulltab_stitching",
+        "aoChannel": 0
+      },
+      "lf_group8_quarter": {
+        "url": "geometry/lf_group8_quarter.drc",
+        "material": "g8_quarter",
+        "aoChannel": 0
+      },
+      "lf_group8_tongue_lace_loop": {
+        "url": "geometry/lf_group8_tongue_lace_loop.drc",
+        "material": "g8_tongue_lace_loop",
+        "aoChannel": 0
+      },
+      "lf_group8_tongue_overlay": {
+        "url": "geometry/lf_group8_tongue_overlay.drc",
+        "material": "g8_tongue_left",
+        "aoChannel": 0
+      },
+      "lf_group8_tongue_overlay_stitch": {
+        "url": "geometry/lf_group8_tongue_overlay_stitch.drc",
+        "material": "g8_tongue_stitching",
+        "aoChannel": 0
+      },
+      "lf_group9_laces": {
+        "url": "geometry/lf_group9_laces.drc",
+        "material": "g9_laces",
+        "aoChannel": 0
+      },
+      "lf_group10_airbag": {
+        "url": "geometry/lf_group10_airbag.drc",
+        "material": "g10_airbag",
+        "aoChannel": 0
+      },
+      
+      "lf_group11_midsole_bumps": {
+        "url": "geometry/lf_group11_midsole_bumps.drc",
+        "material": "g11_midsole",
+        "aoChannel": 0
+      },
+      "lf_group11_midsole_smooth": {
+        "url": "geometry/lf_group11_midsole_smooth.drc",
+        "material": "g11_midsole_smooth",
+        "aoChannel": 0
+      },
+      "lf_group12_outsole_large_bumps": {
+        "url": "geometry/lf_group12_outsole_large_bumps.drc",
+        "material": "outsole_base",
+        "aoChannel": 0
+      },
+      "lf_group12_outsole_small_bumps": {
+        "url": "geometry/lf_group12_outsole_small_bumps.drc",
+        "material": "outsole_bumps",
+        "aoChannel": 0
+      },
+      "lf_group12_outsole_smooth": {
+        "url": "geometry/lf_group12_outsole_smooth.drc",
+        "material": "outsole_base",
+        "aoChannel": 0
+      },
+      "lf_group13_tongue_logo_nikereact": {
+        "url": "geometry/lf_group13_tongue_logo_nikereact_stitched.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 0
+      },
+      "lf_group13_tongue_logo_wavynike": {
+        "url": "geometry/lf_group13_tongue_logo_wavynike.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 0
+      },
+      "lf_group13_tongue_logo_nyc1": {
+        "url": "geometry/lf_group13_tongue_logo_nyc1.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 0
+      },
+      "lf_group13_tongue_logo_nyc2": {
+        "url": "geometry/lf_group13_tongue_logo_nyc2.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 0
+      },
+      "lf_group13_tongue_logo_wavyswoosh": {
+        "url": "geometry/lf_group13_tongue_logo_wavyswoosh.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 0
+      },
+      "lf_group14_heeltab_swoosh": {
+        "url": "geometry/lf_group14_heeltab_swoosh.drc",
+        "material": "g14_heel_swoosh",
+        "aoChannel": 0
+      },
+      "lf_sockliner": {
+        "url": "geometry/lf_sockliner.drc",
+        "material": "sockliner",
+        "aoChannel": 0
+      },
+
+      "lf_bounds": {
+        "url": "geometry/lf_proxy.drc",
+        "isBounds" : true,
+        "isShadow" : true
+      }
+    },
+
+
+    "right": {
+      "rt_group1_base": {
+        "url": "geometry/rt_group1_base.drc",
+        "material": "g1_base",
+        "aoChannel": 1
+      },
+      "rt_group1_tongue_base": {
+        "url": "geometry/rt_group1_tongue_base.drc",
+        "material": "g1_base",
+        "aoChannel": 1
+      },
+      "rt_group2_base_overlay": {
+        "url": "geometry/rt_group2_base_overlay.drc",
+        "material": "g2_base_overlay_right",
+        "aoChannel": 1
+      },
+      "rt_group3_heel_overlay": {
+        "url": "geometry/rt_group3_heel_overlay.drc",
+        "material": "g3_overlay",
+        "aoChannel": 1
+      },
+      "rt_group3_heel_tab": {
+        "url": "geometry/rt_group3_heel_tab.drc",
+        "material": "g3_heel_tab_right",
+        "aoChannel": 1
+      },
+      "rt_group3_heel_tab_stitch": {
+        "url": "geometry/rt_group3_heel_tab_stitch.drc",
+        "material": "g3_heel_stitching",
+        "aoChannel": 1
+      },
+      "rt_group3_mudguard_overlay": {
+        "url": "geometry/rt_group3_mudguard_overlay.drc",
+        "material": "g3_overlay",
+        "aoChannel": 1
+      },
+      "rt_group4_swoosh_traditional": {
+        "url": "geometry/rt_group4_traditional_swoosh.drc",
+        "material": "g4_swoosh",
+        "aoChannel": 1
+      },
+      "rt_group4_swoosh_wavy": {
+        "url": "geometry/rt_group4_wavy_swoosh.drc",
+        "material": "g4_swoosh",
+        "aoChannel": 1
+      },
+      "rt_group5_collar_lining": {
+        "url": "geometry/rt_group5_collar_lining.drc",
+        "material": "g5_lining",
+        "aoChannel": 1
+      },
+      "rt_group5_eyestay": {
+        "url": "geometry/rt_group5_eyestay.drc",
+        "material": "g5_eyestay",
+        "aoChannel": 1
+      },
+      "rt_group5_lining_stitch": {
+        "url": "geometry/rt_group5_lining_stitch.drc",
+        "material": "g5_stitching",
+        "aoChannel": 1
+      },
+      "rt_group5_tongue_lining": {
+        "url": "geometry/rt_group5_tongue_lining.drc",
+        "material": "g5_lining",
+        "aoChannel": 1
+      },
+      "rt_group5_top_eyestay": {
+        "url": "geometry/rt_group5_top_eyestay.drc",
+        "material": "g5_eyestay_top",
+        "aoChannel": 1
+      },
+      "rt_group5_top_eyestay_stitch": {
+        "url": "geometry/rt_group5_top_eyestay_stitch.drc",
+        "material": "g5_stitching",
+        "aoChannel": 1
+      },
+      "rt_group6_eyestay_stitch": {
+        "url": "geometry/rt_group6_eyestay_stitch.drc",
+        "material": "g6_accent_stitching",
+        "aoChannel": 1
+      },
+      "rt_group7_eyelets": {
+        "url": "geometry/rt_group7_eyelets.drc",
+        "material": "g7_eyelets",
+        "uvMirror" : true,
+        "aoChannel": 1
+      },
+      "rt_group7_heel_pull_tab": {
+        "url": "geometry/rt_group7_heel_pull_tab.drc",
+        "material": "g7_pulltab",
+        "uvMirror" : true,
+        "aoChannel": 1
+      },
+      "rt_group7_heel_pull_tab_stitch": {
+        "url": "geometry/rt_group7_heel_pull_tab_stitch.drc",
+        "material": "g7_pulltab_stitching",
+        "aoChannel": 1
+      },
+      "rt_group8_quarter": {
+        "url": "geometry/rt_group8_quarter.drc",
+        "material": "g8_quarter",
+        "aoChannel": 1
+      },
+      "rt_group8_tongue_lace_loop": {
+        "url": "geometry/rt_group8_tongue_lace_loop.drc",
+        "material": "g8_tongue_lace_loop",
+        "aoChannel": 1
+      },
+      "rt_group8_tongue_overlay": {
+        "url": "geometry/rt_group8_tongue_overlay.drc",
+        "material": "g8_tongue_right",
+        "aoChannel": 1,
+        "uvMirror" : true
+      },
+      "rt_group8_tongue_overlay_stitch": {
+        "url": "geometry/rt_group8_tongue_overlay_stitch.drc",
+        "material": "g8_tongue_stitching",
+        "aoChannel": 1
+      },
+      "rt_group9_laces": {
+        "url": "geometry/rt_group9_laces.drc",
+        "material": "g9_laces",
+        "aoChannel": 1
+      },
+      "rt_group10_airbag": {
+        "url": "geometry/rt_group10_airbag.drc",
+        "material": "g10_airbag",
+        "aoChannel": 1
+      },
+      "rt_group11_midsole_bumps": {
+        "url": "geometry/rt_group11_midsole_bumps.drc",
+        "material": "g11_midsole",
+        "aoChannel": 1
+      },
+      "rt_group11_midsole_smooth": {
+        "url": "geometry/rt_group11_midsole_smooth.drc",
+        "material": "g11_midsole_smooth",
+        "aoChannel": 1
+      },
+      "rt_group12_outsole_large_bumps": {
+        "url": "geometry/rt_group12_outsole_large_bumps.drc",
+        "material": "outsole_base",
+        "aoChannel": 1
+      },
+      "rt_group12_outsole_small_bumps": {
+        "url": "geometry/rt_group12_outsole_small_bumps.drc",
+        "material": "outsole_bumps",
+        "aoChannel": 1
+      },
+      "rt_group12_outsole_smooth": {
+        "url": "geometry/rt_group12_outsole_smooth.drc",
+        "material": "outsole_base",
+        "aoChannel": 1
+      },
+      "rt_group13_tongue_logo_nikereact": {
+        "url": "geometry/rt_group13_tongue_logo_nikereact_stitched.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 1
+      },
+      "rt_group13_tongue_logo_wavynike": {
+        "url": "geometry/rt_group13_tongue_logo_wavynike.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 1
+      },
+      "rt_group13_tongue_logo_wavyswoosh": {
+        "url": "geometry/rt_group13_tongue_logo_wavyswoosh.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 1
+      },
+      "rt_group13_tongue_logo_nyc1": {
+        "url": "geometry/rt_group13_tongue_logo_nyc1.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 1
+      },
+      "rt_group13_tongue_logo_nyc2": {
+        "url": "geometry/rt_group13_tongue_logo_nyc2.drc",
+        "material": "g13_tongue_logo",
+        "aoChannel": 1
+      },
+      "rt_group14_heeltab_swoosh": {
+        "url": "geometry/rt_group14_heeltab_swoosh.drc",
+        "material": "g14_heel_swoosh",
+        "aoChannel": 1
+      },
+      "rt_sockliner": {
+        "url": "geometry/rt_sockliner.drc",
+        "material": "sockliner",
+        "aoChannel": 1,
+        "uvMirror" : true
+      },
+      "rt_bounds": {
+        "url": "geometry/rt_proxy.drc",
+        "isBounds" : true,
+        "isShadow" : true
+      }
+    }
+  }
+}
