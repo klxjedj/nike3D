@@ -1,5 +1,8 @@
-import * as actions from './BuilderActions'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-let d=document.createElement('h1');
-d.innerHTML="hello Mc"
-document.body.appendChild(d)
+import App from './App'
+
+let experience=<App />
+
+ReactDOM.render(experience,document.getElementById('root'));
