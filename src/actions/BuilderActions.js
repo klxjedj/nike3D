@@ -1,4 +1,4 @@
-import dispatcher from './BuilderDispatcher.js';
+import dispatcher from '../dispatcher/BuilderDispatcher.js';
 
 export function customizeInterest(interest, isTheme, question) {
 	// console.debug("== ACTION » customizeInterest ", { interest, isTheme, question });
