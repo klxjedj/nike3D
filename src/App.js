@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Builder from './builder';
+import Builder from './Builder';
 
 class App extends Component {
     
