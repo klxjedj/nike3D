@@ -1,15 +1,21 @@
-const __isIE11=false;
+const __isIE11 = false;
 const c = window.configurator;
 
 
 const _shoes = {
     AM270AMFA19_NIKE: require('./data/AM270AMFA19_NIKE'),
 };
-
+export let selected = 'AM270AMFA19_NIKE';
 
 export const shoes = {
     AM270AMFA19_NIKE: _shoes.AM270AMFA19_NIKE,
 };
+
+let shoe = shoes[selected];
+
+export const getActiveShoe = () => {
+    return shoe;
+}
 
 export const initialize = ({ callback }) => {
 
@@ -61,4 +67,25 @@ export const initialize = ({ callback }) => {
 
 export const getShoes = () => {
     return Object.keys(shoes);
+}
+
+export const getGroups = () => {
+    return shoe.getGroups();
+}
+
+export const loadShoe = (id, onLoaded) => {
+    c.LoadAssets(
+        shoes[id].assetBundle,
+        () => {
+            resetShoe(id, true);
+            document.getElementById('viewport').style.display = 'block';
+            shoes[id].syncPosition('offscreen');
+
+            if (onLoaded) {
+                onLoaded();
+            }
+        },
+        (p) => {
+        }
+    );
 }

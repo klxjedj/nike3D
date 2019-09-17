@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="21px" viewBox="0 0 55 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>blackswoosh</title>
+    <desc>Created with Sketch.</desc>
+    <g id="blackswoosh" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14.7441863,17.8058129 C10.4045804,19.7055532 3.60053098,21.8858705 0.765972552,17.1626323 C-0.813763419,14.5446799 0.185934915,10.4647182 2.52179963,6.74132303 C4.00660354,4.36082628 5.91587484,2.17571769 7.82283523,1.59872116e-14 C6.76443986,1.78043755 3.77431118,7.74490336 7.68741609,10.7231595 C9.20845502,11.8646327 11.8895692,11.9826897 15.2228214,11.0834633 L55,0.177756279 L14.7441863,17.8058129 Z" id="Swoosh" fill="#000000" transform="translate(27.500000, 10.000000) rotate(-360.000000) translate(-27.500000, -10.000000) "></path>
+    </g>
+</svg>

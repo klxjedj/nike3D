@@ -6,13 +6,13 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         filename: 'bundle.js',
-        path: __dirname + '/dis'
+        path:path.join(__dirname,'dis')
     },
     mode: "development",
     devServer: {
         open: true,
         port: 80,
-        contentBase: "dis",
+        contentBase:'./dis',
         hot: true,
     },
     module: {
@@ -25,12 +25,17 @@ module.exports = {
                 }],
             },
             {
-                test:/\.(jpg|png|svg|gif)$/,
-                use:[{
-                    loader:"file-loader",
-                    options:{
-                        name:'images/[name].[ext]'}
+                test: /\.(jpg|png|svg|gif)$/,
+                use: [{
+                    loader: "file-loader",
+                    options: {
+                        name: 'images/[name].[ext]'
+                    }
                 }]
+            },
+            {
+                test: /\.scss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ]
 
